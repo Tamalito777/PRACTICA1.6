@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todas las Partidas - Administrador</title>
-    @vite(['resources/css/app.css', 'resources/css/componentes.css'])
+    @vite(['resources/css/app.css'])
 </head>
 <body>
     <x-navbar />
