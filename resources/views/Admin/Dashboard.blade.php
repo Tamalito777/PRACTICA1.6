@@ -9,7 +9,7 @@
 <body>
     <x-navbar />
 
-    <div class="TituloPagina">
+    <div class="TituloPagina" style="margin-top: 1%">
         <h1>Panel de Administración</h1>
     </div>
 

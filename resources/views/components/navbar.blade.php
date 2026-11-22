@@ -1,6 +1,7 @@
 <nav class="Navbar">
     <div class="NavbarMarca">
-        <span>Tic-Tac-Toe Multijugador</span>
+        <img src="{{ asset('img/PusheenPiano-removebg-preview.png') }}" alt="logo" style="width:65px; height:60px;">
+        <span>Tic-Tac-Toe</span>
     </div>
 
     <div class="NavbarUsuario">

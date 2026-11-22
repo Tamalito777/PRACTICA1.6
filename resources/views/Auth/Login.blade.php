@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión - Tic-Tac-Toe</title>
-    @vite(['resources/css/app.css', 'resources/css/componentes.css'])
+    @vite(['resources/css/app.css'])
 </head>
 <body>
     <div class="LoginCard">
         <div class="TituloPagina">
+            <img src="{{ asset('img/PusheenNieve-removebg-preview.png') }}" alt="logo" style="width:60px; height:60px;">
             <h1>Iniciar Sesión</h1>
+            <img src="{{ asset('img/PusheenNieve-removebg-preview.png') }}" alt="logo" style="width:60px; height:60px;">
         </div>
 
         <x-alerts />

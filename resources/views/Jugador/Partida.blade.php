@@ -11,7 +11,9 @@
 
     <div class="TituloPagina">
         <h1>Tablero — Partida #{{ $partida->id }}</h1>
-        <a href="{{ route('jugador.lobby') }}" class="BtnSecundario">Volver a la sala</a>
+        <div style="margin-left: 70%">
+            <a href="{{ route('jugador.lobby') }}" class="BtnSecundario">Volver a la sala</a>
+        </div>
     </div>
 
     <x-alerts />

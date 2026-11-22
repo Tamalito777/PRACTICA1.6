@@ -1,21 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
-    background-color: #f4f6f9;
+    background-color: rgb(190, 222, 233);
     color: #1f2937;
     padding-bottom: 40px;
 }
 
 .TituloPagina {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px 24px 12px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .TituloPagina h1 {
@@ -117,12 +123,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111827;
+    background-color: rgb(87, 156, 180);
     color: #ffffff;
     padding: 14px 24px;
 }
 
 .NavbarMarca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0%;
     font-weight: bold;
     font-size: 16px;
 }
@@ -137,7 +148,7 @@ body {
 .LoginCard {
     max-width: 400px;
     margin: 70px auto;
-    background-color: #ffffff;
+    background-color: rgb(230, 249, 255);
     padding: 24px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -191,7 +202,7 @@ body {
 
 .BtnNuevaPartida {
     width: 100%;
-    background-color: #16a34a;
+    background-color: #459b65;
     color: #ffffff;
     border: none;
     padding: 14px 18px;
@@ -236,7 +247,7 @@ body {
 
 .BtnPrimario {
     display: inline-block;
-    background-color: #2563eb;
+    background-color: #647db4;
     color: #ffffff;
     text-decoration: none;
     border: none;
@@ -247,12 +258,12 @@ body {
 }
 
 .BtnPrimario:hover {
-    background-color: #1d4ed8;
+    background-color: #102560;
 }
 
 .BtnSecundario {
     display: inline-block;
-    background-color: #e5e7eb;
+    background-color: rgb(143, 195, 212);
     color: #1f2937;
     text-decoration: none;
     border: none;
@@ -263,12 +274,12 @@ body {
 }
 
 .BtnSecundario:hover {
-    background-color: #d1d5db;
+    background-color: rgb(190, 222, 233);
 }
 
 .BtnEliminar {
     display: inline-block;
-    background-color: #dc2626;
+    background-color: #cf5151;
     color: #ffffff;
     text-decoration: none;
     border: none;
@@ -308,7 +319,7 @@ body {
 
 .TableroPanel {
     margin: 0 24px;
-    background-color: #ffffff;
+    background-color: #9caabb;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
@@ -349,7 +360,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f8fafc;
+    background-color: #daecff;
 }
 
 .CasillaLibre {
